@@ -7,6 +7,10 @@ Sitemap Generator as a shell script to generate sitemaps for your website. It ge
 ### Version
 0.1.0
 
+### Requirements
+
+You will need to have the following things installed
+- wget
 
 ### Installation
 

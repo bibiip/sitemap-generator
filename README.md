@@ -28,6 +28,8 @@ It takes the following parameters
 
 `-n`, name of the sitemap files, ex sitemap generates sitemap.xml etc
 
+`-e`, takes a comma-separated list of file extensions to exclude from the file list
+
 ### USAGE
 Here is a few examples:
 
@@ -48,6 +50,6 @@ $ ./sitemap_generator.sh -d example.com -o /sitemaps/ -n maps
 
 ### TODO
 - change lastmod, priority and changefreq
-- possible to change the filtering of files
+
 
 

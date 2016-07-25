@@ -71,7 +71,7 @@ while read p; do
  esac
 done < sortedurls.txt
 echo "</urlset>" >> $name.xml
-gzip -c -9 sitemap.xml > $name.xml.gz
+gzip -c -9 $name.xml > $name.xml.gz
 /bin/cp -rf $name.xml $name.xml.gz $name.txt $output
 rm -rf /tmp/$sitepath
 
